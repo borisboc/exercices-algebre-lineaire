@@ -1,0 +1,11 @@
+[project]
+name = "exercices-algebre-lineaire"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "jupyter-book<2",
+    "matplotlib>=3.10.9",
+    "notebook>=7.5.6",
+    "numpy>=2.4.4",
+    "sympy>=1.14.0",
+]
