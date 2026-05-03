@@ -1,0 +1,18 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Algèbre Linéaire, par Joseph Grifone
+    chapters:
+    - file: algebre_lineaire_joseph_grifone/intro_algebre_lineaire_joseph_grifone.md
+    - file: algebre_lineaire_joseph_grifone/chapt_2_pivot/chapt_2.md
+      sections:    
+      - file: algebre_lineaire_joseph_grifone/chapt_2_pivot/ex_8.ipynb
+    - file: algebre_lineaire_joseph_grifone/chapt_3_app_lineaires_et_matrices/chapt_3.md
+      sections:    
+      - file: algebre_lineaire_joseph_grifone/chapt_3_app_lineaires_et_matrices/todo.ipynb
+  - caption: Annexes
+    chapters:
+    - file: bibliographie.md
